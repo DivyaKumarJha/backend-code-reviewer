@@ -9,11 +9,11 @@ if (result.error) {
     console.error('Error loading .env file:', result.error);
     process.exit(1);
 }
-const cors = require("cors");
-app.use(cors({
-  origin: "https://frontend-code-reviewer.vercel.app", // Allow only your Vercel frontend
-  credentials: true
-}));
+// const cors = require("cors");
+// app.use(cors({
+//   origin: "https://frontend-code-reviewer.vercel.app", // Allow only your Vercel frontend
+//   credentials: true
+// }));
 
 // console.log('Environment loaded from:', path.join(__dirname, '.env'));
 // console.log('GOOGLE_API_KEY exists:', !!process.env.GOOGLE_API_KEY);
