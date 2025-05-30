@@ -30,6 +30,8 @@ async function getReview(req, res) {
     }
 }
 
+//this is straight up the code from the documentation of implementing gemini api in the project
+
 module.exports = {
      getReview,
 };
